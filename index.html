@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <script defer src="weather.js"></script>
+    <title>Weather </title>
+</head>
+<body>
+    <h1 class="heading">WEATHER REPORT</h1>
+    <div class="card">
+        <div class="box">
+            <input type="text" class="city-input" placeholder="Enter city name" spellcheck="false">
+            <button class="search-btn">Search</button>
+            <div class="seperator"></div>
+            <button     class="location-btn"     value="Use current location">Use current location</button>
+        </div>
+        <div class="weather">
+            <div class="current-weather">
+                <div class="details">
+                    <h2>CITYNAME (DD-MM-YYYY)</h2>
+                    <h4>Temperature: </h4>
+                    <h4>Wind: </h4>
+                    <h4>Humidity: </h4>
+                    <h4>(Weather condition)</h4>
+                  </div>
+                  <div class="condition">
+                    <img src="moderate rain.jpg">
+                  </div>
+                </div>
+            
+            <h2>3-Day Weather Forecast</h2>
+            <div class="weather-cards">
+
+                <div class="forecast-card">
+                    <h3>(DD-MM-YYYY)</h3>
+                    <img src="moderate rain.jpg" >
+                    <h4>Temp:</h4>
+                    <h4>Wind:</h4>
+                    <h4>Humidity:</h4>
+                  </div>
+                  <div class="forecast-card">
+                    <h3>(DD-MM-YYYY)</h3>
+                    <img src="moderate rain.jpg" >
+                    <h4>Temp:</h4>
+                    <h4>Wind:</h4>
+                    <h4>Humidity:</h4>
+                  </div>
+                  <div class="forecast-card">
+                    <h3>(DD-MM-YYYY)</h3>
+                    <img src="moderate rain.jpg" >
+                    <h4>Temp:</h4>
+                    <h4>Wind:</h4>
+                    <h4>Humidity:</h4>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

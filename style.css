@@ -1,0 +1,118 @@
+.body {
+    background-color: #f1f1f1;
+    }
+    
+    .heading {
+        font-family: Arial, sans-serif;
+        background-color: #007b7a;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+    }
+    
+    .card {
+        display: flex;
+        gap: 35px;
+        padding: 30px; 
+    } 
+    
+    .box {
+        
+        margin-right: 50px;
+    }
+    
+    .box input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    padding: 0 17px;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    margin: 10px 0 10px 0;
+    }
+    .box .seperator {
+        height: 1px;
+        width: 100%;
+        border: 0.5px solid #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ccc;
+    }
+    
+    .box .seperator::before {
+        content:"or";
+        padding: 0 15px;
+        background-color: white;
+        color: #ccc;
+        font-size: 1.2rem;
+    }
+
+    .box button {
+        width: 100%;
+        height: 40px;
+        outline: none;
+        padding: 0 17px;
+        font-size: 1.1rem;
+        border: 1px solid #ccc;
+        margin: 10px 0 10px 0;
+        background-color: #007b7a;
+        color: black;
+    }
+    
+    .weather {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-right: 50px;
+    }
+    
+    .current-weather {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 2px solid #000; /* Add border */
+        padding: 15px;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 600px;
+        border-radius: 8px;
+        background-color: white; /* Optional */
+        overflow: hidden; /* Prevent overflow issues */
+    }
+
+    
+    .current-weather .condition img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    
+    
+    .current-weather .details {
+        margin-left: 25px; 
+        padding-left: 0; 
+    }
+    
+    .current-weather .condition {
+        margin-left: auto; 
+        padding-right: 50px; 
+        margin-right: 100px; 
+    }
+    
+    .weather-cards {
+        display: flex;
+    }
+    
+    .weather-cards > .forecast-card {
+        border: 2px solid #000; /* Adjust the color and width as needed */
+        border-radius: 8px;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        width: (33.33%);
+        background-color: white; /* Optional: Background color */
+    }
+    
+
+    
